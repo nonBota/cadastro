@@ -158,6 +158,8 @@
 
     <hr></hr>   
 
+    
+
     <h2> Executores </h2>
     <forms class="table border" action="contratos.php" metrod="POST" >
         <tr>
@@ -184,8 +186,8 @@
     </forms>
 
     <?php
-    // include "conn.php";
-    include "contratos.php";
+     include "conn.php";
+   //include "contratos.php";
     if (!$mysqli) {
         die('Não foi possível conectar: ' . mysql_error());
     }
