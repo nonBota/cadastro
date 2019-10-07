@@ -156,6 +156,32 @@
         </tr>
     </forms>
 
+    <hr></hr>   
+
+    <h2> Executores </h2>
+    <forms class="table border" action="contratos.php" metrod="POST" >
+        <tr>
+            <td>
+                <label for="id_contratos">id do Contrato:</label>
+                <input value="1" type="number" id="id_contratos" name="id_contratos">
+            </td>
+            <td>
+                <label for="dat_pagamento">Data faturamento:</label>
+                <input value="2019-09-23" type="date" id="dat_pagamento" name="dat_pagamento">
+            </td>
+            <td>
+                <label for="obs_pagamento">Obs proposta:</label>
+                <input value="3" type="text" id="obs_pagamento" name="obs_pagamento">
+            </td>
+            <td>
+                <label for="vlr_pagamento">Valor:</label>
+                <input value="4" type="number" id="vlr_pagamento" name="vlr_pagamento">
+            </td>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </forms>
 
     <?php
     // include "conn.php";
