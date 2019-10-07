@@ -33,6 +33,7 @@
     $sts_contrato = mysqli_real_escape_string($mysqli, $_REQUEST['sts_contrato']);
     $vlr_contrato = mysqli_real_escape_string($mysqli, $_REQUEST['vlr_contrato']);
 
+
     $sql = "INSERT INTO contratos(
               `cod_contrato`, 
               `tip_faturamento`, 
@@ -76,6 +77,6 @@
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($mysqli);
     }
 
-$var = "<script>javascript:history.back(-2)</script>";
-echo $var;
+ $var = "<script>javascript:history.back(-2)</script>";
+ echo $var;
 ?>
